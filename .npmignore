@@ -1,0 +1,8 @@
+.storybook
+.husky
+src
+node_modules
+.vscode
+*.log
+*.env
+coverage
