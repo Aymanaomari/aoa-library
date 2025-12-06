@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src", // Source directory
+    "outDir": "./dist", // Output directory
+    "module": "ESNext", // Use ESNext for modern module syntax
+    "target": "ESNext", // Target modern JavaScript
+    "moduleResolution": "node", // Resolve modules like Node.js
+    "declaration": true, // Generate .d.ts files
+    "declarationMap": true, // Generate source maps for declarations
+    "declarationDir": "./types", // Output directory for declaration files
+
+    "sourceMap": true, // Generate source maps for debugging
+    "strict": true, // Enable strict type checking
+    "jsx": "react-jsx", // Use React JSX runtime
+    "esModuleInterop": true, // Enable interop for CommonJS modules
+    "skipLibCheck": true, // Skip type checks for libraries
+    "forceConsistentCasingInFileNames": true, // Enforce consistent casing
+    "resolveJsonModule": true, // Allow importing JSON files
+    "isolatedModules": true, // Ensure each file is treated as a module
+    "noEmit": false, // Allow emitting filess
+    "allowSyntheticDefaultImports": true, // Allow default imports for CJS
+    "verbatimModuleSyntax": true // Preserve import/export syntax
+  },
+  "include": ["src"], // Include source files
+  "exclude": ["node_modules", "dist"] // Exclude unnecessary files
+}
