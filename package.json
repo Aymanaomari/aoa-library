@@ -15,6 +15,19 @@
   "jest": {
     "testEnvironment": "jsdom"
   },
+  "babel": {
+    "sourceType": "unambiguous",
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-typescript",
+      [
+        "@babel/preset-react",
+        {
+          "runtime": "automatic"
+        }
+      ]
+    ]
+  },
   "repository": {
     "type": "git",
     "url": ""
@@ -30,6 +43,9 @@
     "react": ">=16"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.23.3",
+    "@babel/preset-typescript": "^7.23.3",
     "@rollup/plugin-commonjs": "^25.0.0",
     "@rollup/plugin-node-resolve": "^15.0.0",
     "@rollup/plugin-typescript": "^10.0.0",
