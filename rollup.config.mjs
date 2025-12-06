@@ -23,7 +23,7 @@ export default [
         sourcemap: true,
       },
     ],
-    external: ["react", "react-dom"],
+    external: ["react", "react-dom", "react/jsx-runtime"],
     plugins: [
       resolve(),
       commonjs(),

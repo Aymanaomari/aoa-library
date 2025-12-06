@@ -1,6 +1,6 @@
 {
   "name": "aoa-library",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "A React library component",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -41,8 +41,8 @@
   "license": "ISC",
   "dependencies": {},
   "peerDependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": ">=18 <20",
+    "react-dom": ">=18 <20"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.23.9",
